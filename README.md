@@ -1,14 +1,10 @@
 # Lagrangian-Discovery-Stochastic-Systems
 Data-driven discovery of interpretable Lagrangian of stochastically excited dynamical systems
 
-
-# Lagrange_Discovery_CPC
-Discovering interpretable Lagrangian of dynamical systems from data
-
 This repository contains the python codes of the paper 
   > + Tapas Tripura and Souvik Chakraborty (2023). Discovering interpretable Lagrangian of dynamical systems from data. [Paper](https://doi.org/10.1016/j.cpc.2023.108960)
 
-![Lagrangian Discovery](framework.jpg)
+![Discovery of Lagrangian Basis functions](Basis.png)
 
 # Files
   + `Discovery_Harmonic.py` Python file for discovering Lagrangian of stochastic Harmonic oscilator.
