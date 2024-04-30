@@ -12,6 +12,9 @@ This repository contains the python codes of the paper
   > + Tripura, T., Panda, S., Hazra, B., & Chakraborty, S. (2024). Data-driven discovery of interpretable Lagrangian of stochastically excited dynamical systems. [Paper](https://arxiv.org/abs/2402.17122)
 
 ![Discovery of Lagrangian Basis functions](figures/Basis.png)
+![Discovery of Lagrangian Basis functions will ill-represented Library](figures/missing_hamiltonian.png)
+![Prediction of responses of Discovered stochastic partial differential equations (SPDEs)](figures/Response_pde.png)
+![Prediction of responses of Discovered stochastic ordinary differential equations (SDEs)](figures/Response_sde.png)
 
 # Files
   + `Discovery_Harmonic.py` Python file for discovering Lagrangian of stochastic Harmonic oscilator.
