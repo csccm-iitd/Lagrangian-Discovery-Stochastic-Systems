@@ -1,19 +1,26 @@
 # Lagrangian-Discovery-Stochastic-Systems
 Data-driven discovery of interpretable Lagrangian of stochastically excited dynamical systems
-```
-This paper delves into Lagrangian discovery for conservative and non-conservative systems under stochastic excitation. The study critically evaluates recent computational methodologies for learning Lagrangians from observed data, highlighting the limitations in interpretability and the exclusion of stochastic excitation. To address these gaps, an automated data-driven framework is proposed for the simultaneous discovery of Lagrange densities and diffusion coefficients of stochastically excited dynamical systems by leveraging sparse regression. This novel framework offers several advantages over existing approaches.
-  + Firstly, it provides an interpretable description of the underlying Lagrange density, allowing for a deeper understanding of system dynamics under stochastic excitations.
-  + Secondly, it identifies the interpretable form of the diffusion coefficient of generalized stochastic force, addressing the limitations of existing deterministic approaches.
-  + The framework is applicable to both stochastic differential equations (SDEs) and stochastic partial differential equations (SPDEs).
-  + Discovered systems show almost exact approximations to true system behavior and minimal relative error in derived equations of motion.
-```
+  + This paper delves into Lagrangian discovery for conservative and non-conservative systems under stochastic excitation. In particular, an automated data-driven framework is proposed for the simultaneous discovery of Lagrange densities and diffusion coefficients of stochastically excited dynamical systems by leveraging sparse regression.
+  + This novel framework offers several advantages over existing approaches.
+    + Firstly, it provides an interpretable description of the underlying Lagrange density, allowing for a deeper understanding of system dynamics under stochastic excitations.
+    + Secondly, it identifies the interpretable form of the diffusion coefficient of generalized stochastic force, addressing the limitations of existing deterministic approaches.
+    + The framework is applicable to both stochastic differential equations (SDEs) and stochastic partial differential equations (SPDEs).
+    + Discovered systems show almost exact approximations to true system behavior and minimal relative error in derived equations of motion.
 
 This repository contains the python codes of the paper 
   > + Tripura, T., Panda, S., Hazra, B., & Chakraborty, S. (2024). Data-driven discovery of interpretable Lagrangian of stochastically excited dynamical systems. [Paper](https://arxiv.org/abs/2402.17122)
 
+### Discovery of Lagrangian Basis functions
 ![Discovery of Lagrangian Basis functions](figures/Basis.png)
-![Discovery of Lagrangian Basis functions will ill-represented Library](figures/missing_hamiltonian.png)
+
+### Discovery of Lagrangian Basis functions will ill-represented Library
+The harmonic basses are removed from the design library of the stochastic pendulum example to simulate an ill-represented design library
+![Discovery of Lagrangian Basis functions with ill-represented Library](figures/missing_hamiltonian.png)
+
+### Prediction of responses of Discovered stochastic partial differential equations (SPDEs)
 ![Prediction of responses of Discovered stochastic partial differential equations (SPDEs)](figures/Response_pde.png)
+
+### Prediction of responses of Discovered stochastic ordinary differential equations (SDEs)
 ![Prediction of responses of Discovered stochastic ordinary differential equations (SDEs)](figures/Response_sde.png)
 
 # Files
