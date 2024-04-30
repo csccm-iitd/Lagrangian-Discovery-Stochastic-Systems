@@ -11,32 +11,27 @@ This repository contains the python codes of the paper
 ![Lagrangian Discovery](framework.jpg)
 
 # Files
-  + `lagrange_harmonic.py` This code is for discovering Lagrangian of Harmonic oscilator.
-  + `lagrange_forced.py` This code is for discovering Lagrangian of 1D Burgers' equation.
-  + `lagrange_pendulam.py` This code is for discovering Lagrangian of 1D Burgers' equation.
-  + `lagrange_3DOF.py` This code is for discovering Lagrangian of 1D Burgers' equation.
-  + `lagrange_molecule.py` This code is for discovering Lagrangian of 1D Burgers' equation.
-  + `lagrange_wave.py` This code is for discovering Lagrangian of 1D Burgers' equation.
-  + `lagrange_Blade.py` This code is for discovering Lagrangian of 1D Burgers' equation.
-  + `lagrange_NS.py` This code is for discovering Lagrangian of 1D Burgers' equation.
-  + `utils.py` This code contains useful functions for sparse regression.
-  + `utils_data.py` This code contains useful functions for data-generation for ODEs.
-  + `utils_data_identified.py` This code contains useful functions for data-generation for ODEs.
-  + `utils_data_pde.py` This code contains useful functions for data-generation for PDEs.
-  + `case_generalization.py` This code is for the case study of 30-link atomic chain.
-  + `beam3fun.py` This code contains functions for Euler-Bernoulli beam simulation.
+  + `Discovery_Harmonic.py` Python file for discovering Lagrangian of stochastic Harmonic oscilator.
+  + `Discovery_Pendulum.py` Python file for discovering Lagrangian of stochastic Pendulum.
+  + `Discovery_Pendulum_missing.py` Python file for discovering Lagrangian of stochastic Pendulum with missing harmonic basses in library.
+  + `Discovery_Duffing.py` Python file for discovering Lagrangian of stochastic Duffing oscillator.
+  + `Discovery_3DOF.py` Python file for discovering Lagrangian of stochastic 3DOF oscillator.
+  + `Discovery_string.py` Python file for discovering Lagrangian of stochastic Wave equation.
+  + `Discovery_Blade.py` Python file for discovering Lagrangian of stochastic Euler-Bernoulli Beam.
+  + `utils.py` Python file containing useful functions for sparse regression and Euler-Lagrange library construction.
+  + `utils_data.py` Python file containing useful functions for solving SDEs/SPDEs.
+  + `Figure_basis.py` Python file for generating stem plots of basis functions.
+  + `Figure_hamiltonian.py` Python file for generating plots of Hamiltonian.
+  + `Figure_response.py` Python file for generating plots of system responses.
+  + `beam3fun.py` Python file containing functions of Newmark-beta and assembling Beam elements.
 
 # BibTex
-If you take help of our codes, please cite us at,
+Please cite us at,
 ```
-@article{TRIPURA2023108960,
-title = {Discovering interpretable Lagrangian of dynamical systems from data},
-journal = {Computer Physics Communications},
-pages = {108960},
-year = {2023},
-issn = {0010-4655},
-doi = {https://doi.org/10.1016/j.cpc.2023.108960},
-url = {https://www.sciencedirect.com/science/article/pii/S0010465523003053},
-author = {Tapas Tripura and Souvik Chakraborty}
+@article{tripura2024data,
+  title={Data-driven discovery of interpretable Lagrangian of stochastically excited dynamical systems},
+  author={Tripura, Tapas and Panda, Satyam and Hazra, Budhaditya and Chakraborty, Souvik},
+  journal={arXiv preprint arXiv:2402.17122},
+  year={2024}
 }
 ```
